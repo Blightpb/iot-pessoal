@@ -420,7 +420,7 @@ i.close-btn {
 
 }
 
-@media (max-width:750px) {
+@media (max-width:1200px) {
     .topico-1 {
         grid-template-columns: 1fr;
         padding: 7%;
@@ -476,13 +476,13 @@ i.close-btn {
     opacity: 1;
 }
 
-@media (max-width:750px) {
+@media (max-width:700px) {
     .box {
-        height: 150px;
+        height: 80px;
     }
 
     .box.expanded {
-        height: 330px;
+        height: 365px;
     }
 
     .box.collapsed {
