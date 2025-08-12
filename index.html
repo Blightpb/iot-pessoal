@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IoT-Pessoal</title>
+  <link rel="stylesheet" href="estilos.css" />
+
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon"> <!-- foto da aba do site -->
+  <link rel="icon" href="img/logo.png" sizes="16x16">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Tiny5&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+
+<body>
+
+  <!-- cabeçalho -->
+  <header>
+    <img class="logo" src="img/Inkey.png" alt="">
+    <div class="navigation">
+      <ul class="menu">
+        <i class="fa-solid fa-xmark close-btn"></i>
+        <li class="menu-item">
+        <li class="menu-item"><a class="item" href="#introducao">Introdução</a></li>
+        <li class="menu-item"><a class="item" href="#funcionamento">Funcionamento</a></li>
+        <li class="menu-item"><a class="item" href="#funcionamento">Detalhes</a></li>
+        <li class="menu-item"><a class="item" href="#exemplos">Exemplos</a></li>
+        </li>
+
+      </ul>
+    </div>
+
+    <!--icone menu hamburger -->
+    <i class="fa-solid fa-bars menu-btn"></i>
+
+  </header>
+
+  <div class="espaco-menor"></div>
+
+  <!-- banner desktop -->
+  <div class="desktop-only">
+    <div class="banner-desktop">
+
+      <!-- titulo -->
+      <div class="titulo-container-desktop">
+        <h1 class="titulo-banner-desktop">IoT Pessoal</h1>
+        <p class="subtitulo-banner-desktop">A Internet das Coisas</p>
+      </div>
+
+      <!-- imagem -->
+      <div class="imagem-container-desktop">
+        <img src="img/imagem-introducao.png" alt="" class="imagem-banner-desktop">
+      </div>
+
+    </div>
+  </div>
+
+  <!-- banner mobile -->
+  <div class="mobile-only">
+    <div class="banner-mobile">
+
+      <!-- titulo -->
+      <div class="titulo-container-mobile">
+        <h1 class="titulo-banner-mobile">IoT Pessoal</h1>
+        <p class="subtitulo-banner-mobile">A Internet das Coisas</p>
+      </div>
+
+      <!-- imagem -->
+      <div class="imagem-container-mobile">
+        <img src="img/imagem-introducao.png" alt="" class="imagem-banner-mobile">
+      </div>
+
+    </div>
+  </div>
+
+  <div id="introducao" class="divisoria"></div>
+
+  <!-- introducao -->
+
+  <div class="introducao">
+
+    <img class="imagem-fundo" src="img/banner.png" alt="">
+
+    <div class="introducao-texto">
+      <h1>O que é IoT?</h1>
+      <p>A Internet das Coisas (IoT) refere-se à rede de dispositivos físicos conectados à
+        internet, capazes de coletar e trocar dados. Essa rede inclui desde eletrodomésticos e
+        veículos até dispositivos industriais, todos interligados para otimizar processos e
+        oferecer novas funcionalidades. Além de funcionar por sensores, conectividade,
+        plataformas.</p>
+    </div>
+
+  </div>
+
+  <!-- tópicos interatipos -->
+  <div id="funcionamento" class="topico-1">
+
+    <div class="texto-topico-1">
+      <h1>Tecnologias envolvidas</h1>
+      <p>
+       A IoT pessoal integra dispositivos inteligentes que se comunicam por meio de
+protocolos leves como MQTT, CoAP e Bluetooth Low Energy. Esses aparelhos usam
+
+redes como Wi-Fi, Zigbee, Z-Wave e 5G para trocar dados com eficiência. O
+processamento pode acontecer na nuvem (centralizado) ou na borda (próximo ao
+dispositivo), garantindo respostas rápidas. A inteligência artificial potencializa tudo isso
+ao permitir automações e decisões em tempo real, tornando os sistemas mais
+eficientes e personalizados.
+      </p>
+    </div>
+
+    <div class="container">
+      <div class="box" onclick="toggleBox(this)">
+        <h2>Segurança e privacidade</h2>
+        <p class="content">É importante entender os riscos de invasão e adotar boas práticas para proteger seus
+dados e dispositivos, tanto em redes domésticas quanto em dispositivos IoT, através
+da implementação de criptografia, autenticação forte e outras medidas de segurança.</p>
+      </div>
+      <div class="box" onclick="toggleBox(this)">
+        <h2>Tendências e futuro</h2>
+        <p class="content">O futuro do IoT está revolucionando diversos setores com automação inteligente, análises em tempo real e insights gerados por inteligência artificial. À medida que mais dispositivos conectados são adotados, a tecnologia 5G surge como solução ideal para empresas que precisam de redes mais rápidas, estáveis e eficientes para sustentar suas operações e infraestrutura.</p>
+      </div>
+      <div class="box" onclick="toggleBox(this)">
+        <h2>Impacto social</h2>
+        <p class="content">Essa tecnologia está possibilitando a criação de ecossistemas integrados que podem
+otimizar diversas áreas, inclusive as que envolvem a sustentabilidade. Sistemas de
+transporte inteligente, por exemplo, podem utilizar sensores, câmeras e outros
+dispositivos conectados para coletar dados em tempo real sobre o tráfego, condições
+das vias e comportamento dos usuários.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- carrossel de exemplos -->
+
+  <div class="wrapper" id="exemplos">
+
+    <i id="left" class="fa-solid  fas fa-angle-left"></i>
+
+    <ul class="carousel">
+
+      <li class="card">
+        <div class="img"><img src="img/9.png" alt="" draggable="false"> </div>
+        <h2>Wearables</h2>
+        <p>Monitoram atividades físicas, frequência cardíaca, qualidade do sono e recebem notificações. </p>
+      </li>
+
+      <li class="card">
+        <div class="img"><img src="img/10.png" alt="" draggable="false"> </div>
+        <h2>Assistentes virtuais</h2>
+        <p>Permitem controlar funções do veículo e acessar informações por comandos de voz. </p>
+      </li>
+
+      <li class="card">
+        <div class="img"><img src="img/11.png" alt="" draggable="false"> </div>
+        <h2>Localizadores GPS</h2>
+        <p> Se trata de um pequeno dispositivo Bluetooth que você pode prender a itens para rastreio.</p>
+      </li>
+
+      <li class="card">
+        <div class="img"><img src="img/12.png" alt="" draggable="false"> </div>
+        <h2>Carros inteligentes</h2>
+        <p>Utiliza tecnologias de comunicação e sensores para se conectar à internet e interagir com outros dispositivos.</p>
+      </li>
+
+      <li class="card">
+        <div class="img"><img src="img/13.png" alt="" draggable="false"> </div>
+        <h2>Monitoramento</h2>
+        <p>Câmeras de segurança com monitoramento em tempo real e sensores de movimento. </p>
+      </li>
+
+      <li class="card">
+        <div class="img"><img src="img/14.png" alt="" draggable="false"> </div>
+        <h2>Casa inteligente</h2>
+        <p>Permitem o controle remoto de dispositivos de casa por meio de aplicativos.</p>
+      </li>
+
+    </ul>
+
+    <i id="right" class="fa-solid fas fa-angle-right"></i>
+  </div>
+
+  <!-- footer -->
+  <footer class="footer">
+        <div class="devs">
+            <h3 class="sobre">Sobre nós:</h3>
+            <br>
+            <a href="https://github.com/GabriellaMoura7">
+                <p class="link-time"><i class="fa-brands fa-github"></i>Gabriella Moura</p>
+            </a>
+            <a href="https://github.com/maxiecuti">
+                <p class="link-time"><i class="fa-brands fa-github"></i>Juliana Karla</p>
+            </a>
+            <a href="https://github.com/Khallizi02">
+                <p class="link-time"><i class="fa-brands fa-github"></i>Rafael Senra</p>
+            </a>
+            <a href="https://github.com/blightpb">
+                <p class="link-time"><i class="fa-brands fa-github"></i>Rafaela Paz</p>
+        </div>
+    </footer>
+
+  <script src="js/dropdown.js"></script>
+  <script src="js/topicos.js"></script>
+  <script src="js/carrossel.js"></script>
+</body>
+
+</html>
